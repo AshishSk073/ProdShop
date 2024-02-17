@@ -1,0 +1,7 @@
+.quantity_counter {
+    @apply bg-slate-100 w-max rounded-lg border py-3 flex justify-center items-center;
+
+    .add_sub_btn {
+        @apply px-3 text-slate-400
+    }
+}

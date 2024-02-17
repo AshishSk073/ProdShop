@@ -1,0 +1,19 @@
+.product_carousel {
+    @apply flex justify-center items-center w-[300px] bg-slate-100;
+
+    .product_image_container {
+        @apply h-[260px];
+
+        .product_image {
+            @apply object-contain w-full h-full;
+        }
+    }
+
+    .slider_btn_container {
+        @apply absolute bottom-2 flex justify-center items-center w-[200px];
+
+        .slider_btn {
+            @apply h-[5px] w-[30px] hover:bg-white mx-1;
+        }
+    }
+}

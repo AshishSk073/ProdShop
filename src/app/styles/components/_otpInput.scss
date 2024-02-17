@@ -1,0 +1,15 @@
+.otp_modal {
+    @apply p-5 flex flex-col justify-center items-center;
+
+    .otp_input_container {
+        @apply flex justify-between items-center;
+
+        .otp_input {
+            @apply w-2/12 border-2 text-center p-3 mb-3 rounded;
+        }
+    }
+
+    .otp_form_submit {
+        @apply p-2 rounded-md text-white w-full mt-3 font-semibold transition-colors uppercase text-sm;
+    }
+}

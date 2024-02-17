@@ -1,0 +1,11 @@
+.app_navbar {
+    @apply flex justify-between items-center shadow-3xl p-3;
+
+    .app_comp_name {
+        @apply text-4xl font-semibold;
+    }
+
+    .app_cart_btn {
+        @apply rounded-full py-3
+    }
+}

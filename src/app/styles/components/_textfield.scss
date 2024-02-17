@@ -1,0 +1,11 @@
+.textfield_input_container {
+    @apply flex justify-start items-center py-0 bg-transparent w-full border-b-2 focus-within:border-b-blue-600;
+
+    .textfield_icon {
+        @apply border-r-2 pr-2;
+    }
+
+    .textfield_input {
+        @apply mb-0 p-3 px-2 outline-none rounded w-full bg-transparent;
+    }
+}

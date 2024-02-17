@@ -1,0 +1,17 @@
+.star_rating {
+    @apply flex items-center
+}
+
+.stars {
+    @apply flex;
+}
+
+.star-half-container {
+    @apply relative;
+    width: 15px;
+}
+
+.star-half-background {
+    @apply absolute top-0 left-0 overflow-hidden w-full;
+    transform: scaleX(-1);
+}

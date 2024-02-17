@@ -1,0 +1,23 @@
+.product_card_container {
+    @apply bg-white p-3 w-max shadow-3xl rounded-3xl relative;
+
+    .product_card_wishlist_btn {
+        @apply bg-white hover:bg-white text-red-400 absolute right-6 top-5 z-[999] px-2 shadow-3xl;
+    }
+
+    .product_card_brand {
+        @apply text-slate-600 text-xs mt-5 w-[300px];
+    }
+
+    .product_card_title {
+        @apply font-semibold text-lg w-[300px] truncate;
+    }
+
+    .product_description {
+        @apply text-slate-600 text-xs mt-3 w-[300px] truncate
+    }
+
+    .product_description {
+        @apply text-slate-600 text-xs mt-3 w-[300px] truncate
+    }
+}
