@@ -10,7 +10,7 @@ function LoginForm() {
     const compName = process.env.NEXT_PUBLIC_APP_NAME;
     const loginForm = useFormik({
         initialValues: {
-            mobileNo: '1234567890'
+            mobileNo: ''
         },
         onSubmit: () => {
             setOpenOTP(true);
@@ -33,7 +33,7 @@ function LoginForm() {
             ) : (
                 <div className="login_form_container">
                     <h1 className="login_form_title text-3xl">{compName}</h1>
-                    <h3 className="text-sm">Please enter your mobile number to login</h3>
+                    <h3 className="text-sm">To proceed to login please fill in below details</h3>
                     <form onSubmit={loginForm.handleSubmit} className="login_form">
                         <TextField
                             id="mobileNo"
